@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+    max-width: 100%;
+    height: 80vh;
+    background-image: url(movies.jpg);
+    position: relative;
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    opacity: 0.77;
+    position: absolute;
+    top: 0%;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+.but button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0 23px;
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.hero>:nth-child(2) {
+    font-weight: bolder;
+    font-size: small;
+}
+
+.hero>:nth-child(3) {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.sep {
+    background-color: rgb(247, 247, 12);
+    height: 6px;
+    position: relative;
+    z-index: 20px;
+}
+
+.btt {
+    background-color:yellow;
+    color:black;
+    border-radius: 4px;
+    padding: 9px 15px 9px 15px;
+    border: 0px;
+    font-size: 13px;
+    font-weight: 19px;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.44);
+    color: white;
+    border: 1px solid rgba(23, 23, 23, 0.44);
+    border-radius: 8px;
+    font-family: cursive;
+    padding: 10px 20px 10px 20px;
+    font-weight: bolder;
+    border: 1px solid ;
+}
+
+.button{
+    margin-top: 70px;
+}
+
+.bbt {
+    background-color: rgba(23, 23, 23, 0.44);
+    color: white;
+    border: 1px solid rgba(23, 23, 23, 0.44);
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 8px 15px 8px 15px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid {
+    position: relative;
+}
+
+.vid img {
+    width: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.vid video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 300px;
+}
+
+section.first>div {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.secound video {
+    width: 200px;
+
+}
+
+.vid2 video {
+    position: relative;
+    width: 176px;
+    bottom: 200px;
+    left: 63px;
+}
+
+.vid2 img {
+    width: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.feed {
+    color: white;
+    justify-content: space-between;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.feed a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+}
+
+.feed select {
+    background-color: rgba(23, 23, 23, 0.44);
+    color: white;
+    border-radius: 2px 10px 2px;
+    height: 30px;
+    margin-top: 30px;
+}
+

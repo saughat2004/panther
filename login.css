@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(movies.jpg);
+}
+
+.box{
+width: 100vw;
+height:120vh;
+background-color: black;
+opacity: 0.79;
+position:absolute;
+z-index: 10;
+top: 0;
+left: 0;
+}
+.form{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.login-container {
+    margin: 150px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(23, 23, 23, 0.33);
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border: 2px solid yellow;
+    font-family: "Shantell Sans", cursive;
+    position: relative;
+    z-index: 10;
+
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Shantell Sans", cursive;
+
+}
+
+button {
+    background-color: rgb(250, 250, 8);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid;
+    font-family: "Shantell Sans", cursive;
+}
+
+button:hover {
+    background-color: rgb(196, 192, 192);
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    z-index: 10;
+}
+h2{
+    color: white;
+}

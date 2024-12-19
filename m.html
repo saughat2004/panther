@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(movies.jpg);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+.card {
+    background: #eeebeb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(223, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+}
+.box {
+    width: 100vw;
+    height: 140vh;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0%;
+}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="container">
+        <div class="card">
+            <a href="v.html">
+            <img src="nun.jpg" alt="Card Image" class="card-image"></a>
+            <div class="card-content">
+                <h2 class="card-title">THE NUN</h2>
+                <p class="card-text">This is a description of the card. It provides a brief overview of the content.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="v.html">
+            <img src="deadpool.jpeg" alt="Card Image" class="card-image"></a>
+            <div class="card-content">
+                <h2 class="card-title">DEADPOOL</h2>
+                <p class="card-text">This is a description of the card. It provides a brief overview of the content.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="v.html">
+            <img src="jaanvi.jpeg" alt="Card Image" class="card-image"></a>
+            <div class="card-content">
+                <h2 class="card-title">GOOD LUCK JERRY</h2>
+                <p class="card-text">This is a description of the card. It provides a brief overview of the content.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
